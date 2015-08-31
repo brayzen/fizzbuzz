@@ -19,5 +19,4 @@ def test_fizzbuzz(high_limit)
   end
 end
 
-test_fizzbuzz(59)
-test_fizzbuzz(101)
+test_fizzbuzz(102)
