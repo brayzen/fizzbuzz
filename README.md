@@ -6,7 +6,15 @@ I promise I didn't try to make the explanation of this sound so perplexing, it h
 
 I used the method that John and I had concocted within class, it may be verbose, but it seems to make sure all requirements are met through each condition of if.  As opposed to using a larger if/elsif/elsif/else statement.  Partly for unique purposses, always good to be different.
 
-I wrote one test, which is listed below:
+This is tested as follows:
+
+fizzbuzz(3)  => 'Fizz'
+fizzbuzz(5)  => 'Buzz'
+fizzbuzz(15) => 'FizzBuzz'
+fizzbuzz(0).nil? => true
+fizzbuzz(4) => 4
+
+I also wrote one large test method, which is listed below, iterates from 0 upto and including the 'high_limit' parameter:
 
 def test_fizzbuzz(high_limit)
   (0..high_limit).each do |i|
@@ -15,4 +23,11 @@ def test_fizzbuzz(high_limit)
 end
 
 
-I called it using various numbers ie:
+I called it using various numbers, ie:
+
+test_fizzbuzz(102)
+
+
+################################################################
+
+For fizzbuzz_Adv.rb, Matt Yang and I collaborated beforehand on the whiteboard.  We decided upon the most simple data structure of a "2 deep array", thus an array of arrays.  He later changed his to an array of hashes which seemed more expressive.  I was as terse as possible using the ternary expression for the output.  Happy with the outcome and especially with how long it took me to create.  Collaborating beforehand was immensely valueable to me.
