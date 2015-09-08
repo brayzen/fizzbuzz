@@ -26,3 +26,8 @@ end
 I called it using various numbers, ie:
 
 test_fizzbuzz(102)
+
+
+################################################################
+
+For fizzbuzz_Adv.rb, Matt Yang and I collaborated beforehand on the whiteboard.  We decided upon the most simple data structure of a "2 deep array", thus an array of arrays.  He later changed his to an array of hashes which seemed more expressive.  I was as terse as possible using the ternary expression for the output.  Happy with the outcome and especially with how long it took me to create.  Collaborating beforehand was immensely valueable to me.
